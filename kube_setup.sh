@@ -1,6 +1,6 @@
 echo "set tabsize 2" >> ~/.nanorc
 echo "set tabstospaces" >> ~/.nanorc
-echo "set linenumbers" >> ~/.nanorc
+echo "set constantshow" >> ~/.nanorc
 
 echo "alias ksn='k config set-context --current --namespace '" >> ~/.bashrc # ksn ns-1
 echo "alias ktmp='k run tmp --restart=Never --rm -i --image '" >> ~/.bashrc # ktmp nginx:alpine -- curl localhost
